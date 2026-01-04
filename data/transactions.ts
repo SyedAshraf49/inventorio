@@ -1,0 +1,77 @@
+
+import { type Transaction } from '../types';
+
+export const initialTransactions: Transaction[] = [
+  {
+    id: 1,
+    productId: 1,
+    type: 'purchase',
+    quantity: 200,
+    pricePerItem: 20.00,
+    date: '2023-10-01T10:00:00Z',
+  },
+  {
+    id: 2,
+    productId: 1,
+    type: 'sale',
+    quantity: 50,
+    pricePerItem: 24.99,
+    date: '2023-10-15T14:30:00Z',
+  },
+  {
+    id: 3,
+    productId: 2,
+    type: 'purchase',
+    quantity: 100,
+    pricePerItem: 4.50,
+    date: '2023-10-02T09:00:00Z',
+  },
+  {
+    id: 4,
+    productId: 2,
+    type: 'sale',
+    quantity: 55,
+    pricePerItem: 6.50,
+    date: '2023-10-20T12:00:00Z',
+  },
+   {
+    id: 5,
+    productId: 5,
+    type: 'purchase',
+    quantity: 50,
+    pricePerItem: 75.00,
+    date: '2023-09-25T11:00:00Z',
+  },
+  {
+    id: 6,
+    productId: 5,
+    type: 'sale',
+    quantity: 50,
+    pricePerItem: 89.99,
+    date: '2023-10-18T18:45:00Z',
+  },
+   {
+    id: 7,
+    productId: 4,
+    type: 'purchase',
+    quantity: 100,
+    pricePerItem: 15.00,
+    date: '2023-09-30T16:20:00Z',
+  },
+   {
+    id: 8,
+    productId: 4,
+    type: 'sale',
+    quantity: 42,
+    pricePerItem: 19.99,
+    date: '2023-10-21T10:05:00Z',
+  },
+   {
+    id: 9,
+    productId: 4,
+    type: 'sale',
+    quantity: 50,
+    pricePerItem: 19.99,
+    date: '2023-10-25T13:25:00Z',
+  },
+];

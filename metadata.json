@@ -1,0 +1,5 @@
+{
+  "name": "Inventorio - Stock Management",
+  "description": "A sleek and efficient system to manage stock items, track availability, and reduce manual errors in inventory handling. Features a dashboard overview, detailed inventory list, and add/edit/delete functionality.",
+  "requestFramePermissions": []
+}
